@@ -1,0 +1,616 @@
+.iconCowallet1 {
+  position: relative;
+  width: 124.63px;
+  height: 31px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iniciarSesinDiv,
+.regstrateDiv {
+  position: relative;
+  line-height: 104.5%;
+  font-weight: 600;
+  display: inline-block;
+  width: 74px;
+  height: 13px;
+  flex-shrink: 0;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.regstrateDiv {
+  width: 70px;
+}
+.linksDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  z-index: 0;
+}
+.menu2Button,
+.showButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.menu2Button {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../../public/menu1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.showButton {
+  margin: 0 !important;
+  top: -6px;
+  left: 164px;
+  width: 21px;
+  height: 24px;
+  flex-shrink: 0;
+  display: none;
+  z-index: 1;
+}
+.inicioDeSesin {
+  width: 164.9px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-md);
+}
+.inicioDeSesin,
+.navLinksDiv,
+.navbarDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navLinksDiv {
+  flex: 1;
+  justify-content: space-between;
+}
+.navbarDiv {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 78px;
+  flex-shrink: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+}
+.imagenIcon,
+.vectorIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.imagenIcon {
+  width: 1455px;
+  height: 406px;
+  object-fit: cover;
+  z-index: 0;
+}
+.vectorIcon {
+  width: 57.16px;
+  height: 57px;
+}
+.cmoSolicitarDinero {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.aVariosConocidos {
+  margin: 0;
+  color: var(--color-indigo-500);
+}
+.cmoSolicitarDineroAVarios {
+  position: relative;
+  line-height: 127.5%;
+  display: inline-block;
+  width: 579px;
+}
+.frameDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 31px;
+}
+.textoDiv {
+  position: absolute;
+  margin: 0 !important;
+  top: 123px;
+  left: 79px;
+  width: 579px;
+  height: 152px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.slideDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-2xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-0);
+  text-align: center;
+  color: var(--color-indigo-100);
+}
+.todoEn1 {
+  font-weight: 500;
+}
+.span {
+  color: var(--color-indigo-500);
+}
+.span1 {
+  color: var(--color-indigo-100);
+}
+.sencillosPasosSpan {
+  font-weight: 600;
+}
+.sencillosPasos {
+  margin: 0;
+  font-size: var(--font-size-4xl);
+  color: var(--color-indigo-500);
+}
+.todoEn4SencillosPasos {
+  position: relative;
+  line-height: 104.5%;
+  display: inline-block;
+}
+.textoDiv1,
+.todoEn4 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-2xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.todoEn4 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  padding: var(--padding-lg) 20px;
+  text-align: center;
+  color: var(--color-indigo-100);
+}
+.numeroImagen11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 157px;
+  object-fit: cover;
+}
+.creaTuCampaa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 104.5%;
+  font-weight: 600;
+  display: inline-block;
+  width: 205px;
+  height: 15px;
+}
+.delPrstamo {
+  margin: 0;
+}
+.defineLasCondicionesDelPr {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 104.5%;
+  font-weight: 600;
+  color: var(--color-gray);
+  text-align: center;
+  display: inline-block;
+  width: 194px;
+  height: 22px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.textoDiv2 {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  width: 205px;
+  height: 47px;
+}
+.groupDiv1 {
+  position: relative;
+  width: 205px;
+  height: 207px;
+  flex-shrink: 0;
+}
+.div {
+  height: 224px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.numeroImagen21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 113px;
+  height: 158px;
+  object-fit: cover;
+}
+.creaTuCuenta,
+.iniciaSesinOCreaTuPerfil {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 104.5%;
+  font-weight: 600;
+  display: inline-block;
+  width: 160px;
+  height: 13px;
+}
+.iniciaSesinOCreaTuPerfil {
+  top: 25px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  text-align: center;
+  width: 149.19px;
+  height: 11.93px;
+}
+.textoDiv3 {
+  position: absolute;
+  top: 164px;
+  left: 0;
+  width: 160px;
+  height: 36.93px;
+}
+.groupDiv2 {
+  position: relative;
+  width: 160px;
+  height: 200.93px;
+  flex-shrink: 0;
+}
+.div1 {
+  height: 200.93px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-blue);
+}
+.numeroImagen31 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 173px;
+  height: 164px;
+  object-fit: cover;
+}
+.comparteDiv,
+.envaleAAmigosTuCampaa {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  line-height: 104.5%;
+  font-weight: 600;
+  display: inline-block;
+  width: 104.86px;
+  height: 14.49px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.envaleAAmigosTuCampaa {
+  top: 25px;
+  left: 0;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  text-align: center;
+  width: 131.28px;
+  height: 22.16px;
+}
+.textoDiv4 {
+  position: absolute;
+  top: 164px;
+  left: 41.72px;
+  width: 131.28px;
+  height: 47.16px;
+}
+.groupDiv3 {
+  position: relative;
+  width: 173px;
+  height: 211.16px;
+  flex-shrink: 0;
+}
+.div2 {
+  height: 211.16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-indigo-300);
+}
+.numeroImagen41 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 166px;
+  object-fit: cover;
+}
+.listoSpan {
+  font-size: var(--font-size-2xl);
+}
+.listoDiv,
+.recibeDesembolsoInvierteY {
+  position: absolute;
+  top: 0;
+  left: 48px;
+  line-height: 104.5%;
+  font-weight: 600;
+  display: inline-block;
+  width: 75px;
+  height: 15px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+.recibeDesembolsoInvierteY {
+  top: 28px;
+  left: 0;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  text-align: center;
+  width: 166px;
+  height: 22px;
+}
+.textoDiv5 {
+  position: absolute;
+  top: 166px;
+  left: 0;
+  width: 166px;
+  height: 50px;
+}
+.groupDiv4 {
+  position: relative;
+  width: 170px;
+  height: 216px;
+  flex-shrink: 0;
+}
+.div3,
+.iconosDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.div3 {
+  height: 216px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-indigo-400);
+}
+.iconosDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  gap: 39px;
+}
+.iconsaxLineararrowcircledown,
+.iconsaxLineararrowcircledown1,
+.iconsaxLineararrowcircledown2 {
+  position: absolute;
+  top: 0.13px;
+  left: 0;
+  width: 32.81px;
+  height: 32.81px;
+  overflow: hidden;
+}
+.iconsaxLineararrowcircledown1,
+.iconsaxLineararrowcircledown2 {
+  top: 0;
+  left: 200px;
+}
+.iconsaxLineararrowcircledown2 {
+  top: 0.13px;
+  left: 459px;
+}
+.flechasIlustracionDiv {
+  position: relative;
+  width: 491.81px;
+  height: 32.94px;
+  flex-shrink: 0;
+}
+.flechasDiv {
+  position: absolute;
+  top: 78.5px;
+  left: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv {
+  position: absolute;
+  margin: 0 !important;
+  top: 59.5px;
+  left: 296px;
+  width: 825px;
+  height: 224px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.iconosYFlechas,
+.pasosDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.iconosYFlechas {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.pasosDiv {
+  background-color: var(--color-white);
+  height: 393px;
+  flex-shrink: 0;
+  padding: 25px 24px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+}
+.creaTuTarjetaDePrstamo {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 104.5%;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.botnCrearTarjeta {
+  border-radius: var(--br-md);
+  background-color: var(--color-blue);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.botnButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.botnButton,
+.entornoDiv {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+}
+.botnButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) 559px;
+  align-self: stretch;
+  height: 113px;
+  flex-shrink: 0;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.entornoDiv {
+  position: relative;
+  width: 100%;
+  height: 1287px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-violet);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .todoEn4 {
+    padding-left: 80px;
+    box-sizing: border-box;
+  }
+  .div,
+  .div1,
+  .div2,
+  .div3 {
+    flex-direction: row;
+  }
+  .iconosDiv {
+    flex-direction: column;
+  }
+  .flechasIlustracionDiv {
+    display: none;
+  }
+  .iconosYFlechas,
+  .pasosDiv {
+    flex-direction: row;
+  }
+  .pasosDiv {
+    padding-left: 250px;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .botnButton1 {
+    flex-direction: column;
+  }
+  .botnButton {
+    padding: 750px var(--padding-2xl) var(--padding-2xl) 220px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .linksDiv {
+    display: none;
+  }
+  .menu2Button {
+    display: flex;
+  }
+  .showButton {
+    border-radius: 0;
+  }
+  .inicioDeSesin,
+  .navbarDiv,
+  .showButton {
+    display: flex;
+  }
+  .pasosDiv {
+    padding-left: var(--padding-2xs);
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .botnButton1 {
+    padding-right: 0;
+    box-sizing: border-box;
+    margin-left: -222;
+    flex: unset;
+    align-self: stretch;
+  }
+  .botnButton {
+    flex-direction: column;
+    padding: 800px 0 var(--padding-2xl) 300px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .pasosDiv,
+  .todoEn4 {
+    box-sizing: border-box;
+  }
+  .todoEn4 {
+    padding-left: 260px;
+    padding-right: 0;
+  }
+  .pasosDiv {
+    padding-left: 0;
+    padding-right: var(--padding-2xl);
+  }
+  .botnButton {
+    padding-left: 520px;
+    box-sizing: border-box;
+  }
+}
